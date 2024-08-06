@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Advice</title>
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              text1: "#183b56",
+              text2: "#577592",
+              color1: "#2294ed",
+              color2: "#1d69a3",
+              color3: "#1a263e",
+              bgcolor: "#e1eaff",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body>
+
+    <h1 class="w-full my-5 gap-8 flex-wrap flex justify-center items-center font-bold text-xl text-color2">Different Categories</h1>
+
+    <!-- Different Sections or Categories of Products -->
+      <!-- Items List -->
+    <div
+    class="w-full min-h-[50%] my-5 gap-8 flex-wrap flex justify-center items-center"
+  >
+    <!-- Card 1 -->
+    <div
+      class="w-60 h-[225px] p-2 bg-bgcolor rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-4 lg:mt-0 text-text1"
+    >
+      <a href="#vehicle" class="cursor-pointer">
+        <img src="bike.jpeg" alt="" class="h-50 object-cover rounded-xl" />
+      <div class="p-2">
+        <h2 class="font-bold text-lg mb-2 text-center">Vehicle</h2>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div
+      class="w-60 h-[225px] p-2 bg-bgcolor rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-4 lg:mt-0 text-text1"
+    >
+      <a href="#mobile" class="cursor-pointer">
+        <img src="phone.jpeg" alt="" class="h-50 object-cover rounded-xl" />
+      <div class="p-2">
+        <h2 class="font-bold text-lg mb-2 text-center">Mobile</h2>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div
+      class="w-60 h-[225px] p-2 bg-bgcolor rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-4 lg:mt-0 text-text1"
+    >
+      <a href="#electronics" class="cursor-pointer">
+        <img src="electronic.jpeg" alt="" class="h-50 object-cover rounded-xl" />
+      <div class="p-2">
+        <h2 class="font-bold text-lg mb-2 text-center">Electronics</h2>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 4 -->
+    <div
+      class="w-60 h-[225px] p-2 bg-bgcolor rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-4 lg:mt-0 text-text1"
+    >
+      <a href="#furniture" class="cursor-pointer">
+        <img src="furniture.jpeg" alt="" class="h-50 object-cover rounded-xl" />
+      <div class="p-2">
+        <h2 class="font-bold text-lg mb-2 text-center">Furniture</h2>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 5 -->
+    <div
+      class="w-60 h-[225px] p-2 bg-bgcolor rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-4 lg:mt-0 text-text1"
+    >
+      <a href="#fashion" class="cursor-pointer">
+        <img src="clothes.jpeg" alt="" class="h-50 object-cover rounded-xl" />
+      <div class="p-2">
+        <h2 class="font-bold text-lg mb-2 text-center">Fashion</h2>
+      </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!--Main Container-->
+  <main class="w-full my-5 text-text1">
+
+    <!--Vehicle Category Advices-->
+    <div id="vehicle" class="bg-white border-4 rounded-lg shadow relative m-10 p-10">
+        <h2 class="font-bold text-xl mb-2 text-center text-color2">Vehicle</h2>
+        <dl>
+          <dt class="font-semibold text-lg text-color1">Test Drive</dt>
+          <dd class="mx-10 my-2">
+            <ul class="list-disc">
+              <li>A very important aspect of buying a vehicle is the test drive. Starting the vehicle should be a very smooth process.</li>
+              <li>Gear shifting should be effortless, you should not apply any extra pressure on the stick.</li>
+              <li>Engage the clutch and when you release it, the vehicle should move forward in a gentle manner without jerks or vibrations.</li>
+              <li>Take the car out for a ride, feel the suspension, no squeaking or odd vibrations should be felt.</li>
+            </ul>
+          </dd>
+          <br>
+          <dt class="font-semibold text-lg text-color1">Document Verification</dt>
+          <dd class="mx-10 my-2">
+            <ul class="list-disc">
+              <li>Registration Certificate is a crucial document that confirms the legality of the vehicle and ownership.</li>
+              <li>VIN, Chassis no. and Engine no. should be the same everywhere i.e., on the Registration Certificate and the vehicle.</li>
+              <li>Insurance is another important vehicle document without which a vehicle cannot ply on the roads.</li>
+              <li>A Loan NOC is something that you should be aware of in case the vehicle was purchased on a loan.</li>
+              <li>Pollution under control certificate shows the emission levels of the vehicle, via which you can ascertain the condition the engine is in.</li>
+            </ul>
+          </dd>
+          <br>
+          <dt class="font-semibold text-lg text-color1">Engine Checking</dt>
+          <dd class="mx-10 my-2">
+            <ul class="list-disc">
+              <li>It is suggested to inspect the engine thoroughly.</li>
+              <li>Check for leaks, corrosion, and cracked tubes.</li>
+              <li>Also, look at the oil and transmission fluid using a dipstick.</li>
+            </ul>
+          </dd>
+          <br>
+          <dt class="font-semibold text-lg text-color1">Tyres Checking</dt>
+          <dd class="mx-10 my-2">
+            <ul class="list-disc">
+              <li>The condition of the tyres can be good or bad depending on the usage.</li>
+              <li>You can check for the uniformity of the tyres concerning wear and tear.</li>
+              <li>If the tyres are not worn evenly, it can lead to alignment issues, which means the car might tend to drift in a direction while driving.</li>
+            </ul>
+          </dd>
+          <br>
+          <dt class="font-semibold text-lg text-color1">Other Checking</dt>
+          <dd class="mx-10 my-2">
+            <ul class="list-disc">
+              <li>If the car is not too old but has major mileage issues, then it can be a result of deeper problems.</li>
+              <li>Car owners make modifications to their vehicle. If the modifications are illegal, it can create complications for you.</li>
+              <li>Some vehicles may also have outdated safety features and lack the fuel efficiency found in newer models</li>
+            </ul>
+          </dd>
+        </dl>
+    </div>
+
+    <!--Mobile Category Advices-->
+    <div id="mobile" class="bg-white border-4 rounded-lg shadow relative m-10 p-10">
+      <h2 class="font-bold text-xl mb-2 text-center text-color2">Mobile</h2>
+      <dl>
+        <dt class="font-semibold text-lg text-color1">Condition of the phone</dt>
+        <dd class="mx-10 my-2">
+          <ul class="list-disc">
+            <li>Take a close look at the phone for any signs of damage, such as scratches, dents, or cracks.</li>
+            <li>Ask the seller about the phone’s history. Has it been in any accidents?</li>
+            <li>If the phone is in poor condition, it may not be worth the price.</li>
+          </ul>
+        </dd>
+        <br>
+        <dt class="font-semibold text-lg text-color1">Device Information</dt>
+        <dd class="mx-10 my-2">
+          <ul class="list-disc">
+            <li>Check the IMEI number. The IMEI number is a unique identifier for your phone.</li>
+            <li>Make sure the phone is running the latest version of Android/IOS.</li>
+            <li>Check the battery health of the phone.</li>
+          </ul>
+        </dd>
+        <br>
+        <dt class="font-semibold text-lg text-color1">Display and Camera</dt>
+        <dd class="mx-10 my-2">
+          <ul class="list-disc">
+            <li>Check the photo and video quality of camera.</li>
+            <li>Check the display from all the corners.</li>
+            <li>Check the smoothness of display.</li>
+          </ul>
+        </dd>
+        <br>
+        <dt class="font-semibold text-lg text-color1">Bill and Box</dt>
+        <dd class="mx-10 my-2">
+          <ul class="list-disc">
+            <li>Check the original bill of phonen before buying.</li>
+            <li>Also ask for box of phone with it's accessories.</li>
+            <li>Also ask about the warranty of phone.</li>
+          </ul>
+        </dd>
+      </dl>
+  </div>
+
+  <!--Electronic Category Advices-->
+  <div id="electronics" class="bg-white border-4 rounded-lg shadow relative m-10 p-10">
+    <h2 class="font-bold text-xl mb-2 text-center text-color2">Electronics</h2>
+    <dl>
+      <dt class="font-semibold text-lg text-color1">Inspect the Physical Condition</dt>
+      <dd class="mx-10 my-2">
+        <ul class="list-disc">
+          <li>When inspecting used electronics, be sure to check for any scratches, dents, or cracks on the surface. </li>
+          <li>These physical damages can affect the functionality of the electronic and may also indicate that it wasn't well taken care of by its previous owner. </li>
+          <li>Look out for missing buttons, ports or any other essential components that could affect its performance.</li>
+          <li>If possible, test the electronic to ensure that all of its functions are working properly.</li>
+        </ul>
+      </dd>
+      <br>
+      <dt class="font-semibold text-lg text-color1">History and Proof of Purchase</dt>
+      <dd class="mx-10 my-2">
+        <ul class="list-disc">
+          <li>Don't be afraid to ask the seller questions about the history of the used electronic you're interested in.</li>
+          <li>This could include how long they've had it, how often it was used, and if it has ever been repaired.</li>
+          <li>Ask for proof of purchase to ensure that the electronic was not stolen or illegally obtained.</li>
+        </ul>
+      </dd>
+      <br>
+      <dt class="font-semibold text-lg text-color1">Age of Electronic</dt>
+      <dd class="mx-10 my-2">
+        <ul class="list-disc">
+          <li>The age of a used electronic is an important factor to consider when buying one.</li>
+          <li>Older electronics may be cheaper, but they also have a higher chance of malfunctioning or becoming obsolete.</li>
+          <li> It's recommended to buy used electronics that are less than two years old, as they have a longer lifespan and are more likely to be compatible with current technology. </li>
+        </ul>
+      </dd>
+    </dl>
+</div>
+
+<!--Furniture Category Advices-->
+<div id="furniture" class="bg-white border-4 rounded-lg shadow relative m-10 p-10">
+  <h2 class="font-bold text-xl mb-2 text-center text-color2">Furniture</h2>
+  <dl>
+    <dt class="font-semibold text-lg text-color1">Check for Damages</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>It might seem obvious but this is the single bit of advice that all the experts suggest.</li>
+        <li>While you might have fallen in love with a piece of furniture, make sure you still use your head when purchasing it and, if there is damage, think about how fixable it is.</li>
+        <li>If the damage doesn’t look like it can be fixed, you might need to walk away.</li>
+      </ul>
+    </dd>
+    <br>
+    <dt class="font-semibold text-lg text-color1">Look for Labels</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>Just like you would when buying clothes, make sure you look out for labels on second hand furniture.</li>
+        <li>Doing a quick online search for a tag or label you’re not familiar with can provide a lot of information about the quality of the manufacturer and the value of the piece.</li>
+      </ul>
+    </dd>
+    <br>
+    <dt class="font-semibold text-lg text-color1">Check the Condition</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>Most second hand furniture will contain some kind of wood and it’s crucial that you check it’s in good condition before buying.</li>
+        <li>Research and look at the type of wood when buying a second hand wooden piece, as this can depend on how durable the item will be.</li>
+        <li>If you're looking for the lasting factor then opt for hardwoods such as oak or maple as these make strong and long-lasting pieces of furniture.</li>
+      </ul>
+    </dd>
+  </dl>
+</div>
+
+<!--Fashion Category Advices-->
+<div id="fashion" class="bg-white border-4 rounded-lg shadow relative m-10 p-10">
+  <h2 class="font-bold text-xl mb-2 text-center text-color2">Fashion</h2>
+  <dl>
+    <dt class="font-semibold text-lg text-color1">Clothes</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>Get know your clothes size.</li>
+        <li>Check the fabric of clothes before buying.</li>
+        <li>Also check for the demages on it.</li>
+      </ul>
+    </dd>
+    <br>
+    <dt class="font-semibold text-lg text-color1">Footware</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>Make sure the size of footware.</li>
+        <li>Check the damages on it.</li>
+        <li>Also check the durability of it.</li>
+      </ul>
+    </dd>
+    <br>
+    <dt class="font-semibold text-lg text-color1">Accessories</dt>
+    <dd class="mx-10 my-2">
+      <ul class="list-disc">
+        <li>Check the label or brand name.</li>
+        <li>Check the scratches, dents, or cracks on it.</li>
+      </ul>
+    </dd>
+  </dl>
+</div>
+
+
+  </main>
+
+    
+</body>
+</html>
